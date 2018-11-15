@@ -1,0 +1,38 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+    <style name="Theme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+    <style name="delete">
+        <item name="colorBackground">#fc0419</item>
+        <item name="textColor">#fffefe</item>
+        <item name="length">LONG</item>
+
+    </style>
+    <style name="NotFound">
+        <item name="colorBackground">#fdd302</item>
+        <item name="textColor">#fffefe</item>
+        <item name="iconLeft">@drawable/ic_warning</item>
+        <item name="length">LONG</item>
+
+    </style>
+    <style name="Welcome">
+        <item name="colorBackground">#94ffab</item>
+        <item name="textColor">#060606</item>
+        <item name="iconLeft">@drawable/ic_child_care</item>
+        <item name="length">LONG</item>
+        <item name="android:textSize">24sp</item>
+        <item name="android:textStyle">bold|italic</item>
+    </style>
+
+</resources>

@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".NewAccount"
+    android:orientation="vertical"
+    android:padding="20dp">
+
+    <android.support.v4.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+        <EditText
+            android:layout_marginTop="80dp"
+            android:id="@+id/editTextEmailNewAcc"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textEmailAddress"
+            android:hint="البريد الالكتروني"
+            android:paddingRight="5dp"
+            android:layout_marginRight="5dp"
+            android:textStyle="bold|italic"
+            android:textSize="20sp"/>
+
+        <EditText
+            android:layout_marginTop="10dp"
+            android:id="@+id/editTextNameNewAcc"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="text"
+            android:hint="اسم المستخدم "
+            android:paddingRight="5dp"
+            android:layout_marginRight="5dp"
+            android:textStyle="bold|italic"
+            android:textSize="20sp"/>
+
+        <EditText
+            android:layout_marginTop="10dp"
+            android:id="@+id/editTextPhoneNewAcc"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="phone"
+            android:hint="الهاتف "
+            android:paddingRight="5dp"
+            android:layout_marginRight="5dp"
+            android:textAlignment="viewEnd"
+            android:textStyle="bold|italic"
+            android:textSize="20sp"/>
+        <EditText
+            android:id="@+id/editTextPasswordNewAcc"
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPassword"
+            android:hint="كلمة المرور"
+            android:paddingRight="5dp"
+            android:layout_marginRight="5dp"
+            android:textStyle="bold|italic"
+            android:textSize="20sp"
+            android:textAlignment="textEnd"/>
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:onClick="save"
+            android:text="دخول"
+            android:textSize="20sp" />
+        </LinearLayout>
+    </android.support.v4.widget.NestedScrollView>
+</LinearLayout>

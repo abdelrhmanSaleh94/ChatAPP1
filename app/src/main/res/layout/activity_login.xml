@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".LoginActivity"
+    android:padding="10dp">
+
+
+    <EditText
+        android:layout_marginTop="80dp"
+        android:id="@+id/editTextEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textEmailAddress"
+        android:hint="البريد الالكتروني"
+        android:paddingRight="5dp"
+        android:layout_marginRight="5dp"
+        android:textStyle="bold|italic"
+        android:textSize="20sp"/>
+
+    <EditText
+        android:id="@+id/editTextPassword"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPassword"
+        android:hint="كلمة المرور"
+        android:paddingRight="5dp"
+        android:layout_marginRight="5dp"
+        android:textStyle="bold|italic"
+        android:textSize="20sp"
+        android:textAlignment="textEnd"/>
+    <Button
+        android:layout_marginTop="10dp"
+        android:id="@+id/button"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:text="دخول"
+        android:textSize="20sp"
+        android:onClick="logIn"
+        android:layout_gravity="center"
+        />
+
+
+    <TextView
+        android:id="@+id/textViewNewAcc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="تسجيل حساب جديد ؟"
+        android:textSize="24sp"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:textColor="#11BAF2"
+        android:textStyle="bold|italic"
+        />
+
+</LinearLayout>
